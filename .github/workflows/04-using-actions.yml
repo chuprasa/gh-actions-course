@@ -1,11 +1,11 @@
 name: 04-using-actions
-on: workflow_dispatch
+on: push
 jobs:
   build:
     runs-on: ubuntu-latest
     defaults:
       run:
-        working-directory: 04-using-actions
+        working-directory: gh-actions-course/04-using-actions/react-app
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
