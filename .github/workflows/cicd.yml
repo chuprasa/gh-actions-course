@@ -7,6 +7,9 @@ on:
 jobs:
   compile:
     runs-on: self-hosted
+    defaults:
+      run:
+        working-directory: maven_code
 
     steps:
     - uses: actions/checkout@v4
