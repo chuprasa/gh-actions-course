@@ -10,5 +10,5 @@ jobs:
           - name: Setup Node and NPM depenedencies
             uses: ./.github/actions/composite-cache-dependencies
             with:
-              node_version: '20.x'
-              working-directory: '.'
+              node_version: 20.x
+              working-directory: 04-using-actions/react-app
