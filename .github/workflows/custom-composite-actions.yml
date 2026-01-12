@@ -11,4 +11,4 @@ jobs:
             uses: ./.github/actions/composite-cache-dependencies
             with:
               node_version: 20.x
-              working-directory: 04-using-actions/react-app
+              working-directory: ./04-using-actions/react-app
